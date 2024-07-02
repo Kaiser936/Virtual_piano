@@ -1,0 +1,28 @@
+.piano {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    height: 200px;
+    position:relative;
+    z-index:10;
+    border-radius: 10px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.black-touch {
+    height: 100px;
+    background-color: black;
+    z-index: auto;
+    border-radius: 10px;
+}

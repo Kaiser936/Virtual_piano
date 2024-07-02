@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano virtuel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Piano</h1>
+    
+    <div class="piano">
+        <div class="buttons">
+            <button onclick="doSound()" class="button" id="do">Do</button>
+            <button onclick="" class="black-touch">Black touch</button>
+            <button onclick="réSound()" class="button" id="ré">Ré</button>
+            <button onclick="" class="black-touch">Black touch</button>
+            <button onclick="miSound()" class="button" id="mi">Mi</button>
+            <button onclick="faSound()" class="button" id="fa">Fa</button>
+            <button onclick="" class="black-touch">Black touch</button>
+            <button onclick="solSound()" class="button" id="sol">Sol</button>
+            <button onclick="" class="black-touch">Black touch</button>
+            <button onclick="laSound()" class="button" id="la">La</button>
+            <button onclick="" class="black-touch">Black touch</button>
+            <button onclick="siSound()" class="button" id="si">Si</button>
+            <!-- <button onclick="" class="button">Do</button> -->
+
+            <audio id="doAudio" src="sounds/do.wav"></audio>
+            <audio id="réAudio" src="sounds/re.wav"></audio>
+            <audio id="miAudio" src="sounds/mi.wav"></audio>
+            <audio id="faAudio" src="sounds/fa.wav"></audio>
+            <audio id="solAudio" src="sounds/sol.wav"></audio>
+            <audio id="laAudio" src="sounds/la.wav"></audio>
+            <audio id="siAudio" src="sounds/si.wav"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
